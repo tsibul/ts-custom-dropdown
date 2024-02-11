@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #151E19;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ts-dropdown {
+  position: relative;
+  height: 40px;
+}
+.ts-dropdown__content {
+  width: 100%;
+  list-style: none;
+  overflow: auto;
+  border: 1px solid #293D32;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #EFE7DC;
+  display: none;
+  z-index: 7;
+}
+.ts-dropdown__content li {
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.ts-dropdown__content li:hover {
+  color: #EFE7DC;
+  background-color: #293D32;
+}
+.ts-dropdown__input {
+  padding: 7px 10px;
+  background-color: transparent;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid transparent;
+}
+.ts-dropdown__input:focus {
+  outline: none;
+  font-weight: 600;
+}
+.ts-dropdown__input-block {
+  padding-right: 6px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #293D32;
+  border-radius: 10px;
+  background-color: #EFE7DC;
+}
+.ts-dropdown__input-block_start {
+  margin-top: 20px;
+}
+.ts-dropdown__hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+/*# sourceMappingURL=ts-style.css.map */
